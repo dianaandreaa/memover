@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 body {
-    font-family: "Open Sans";
+  user-select: none;
+font-family: "Open Sans";
 font-weight: 600;
 font-size: 1.5rem;
 text-align: left;
 color: #fff;
-    margin: 0;
+margin: 0;
+}
+
+.hidden {
+  display: none;
 }
 
 #bckgr {
@@ -19,12 +24,11 @@ color: #fff;
 }
 
 button {
-    outline: none;
-    border-radius: 25px;
-    padding: 1em;
+    border-radius: 35px;
+    padding: 15px;
 background: white;
 font-weight: bold;
-font-size: 1rem;
+font-size: 0.8rem;
 text-align: center;
 color: #0095be;
 }
@@ -33,7 +37,8 @@ color: #0095be;
     height: 100vh;
 }
 
-.hero{
+.hero {
+  outline: none;
     border: 0.1px solid rgba(234, 235, 239, 0.79);
     position: absolute;
     top: calc(80% - 2em);
@@ -69,9 +74,10 @@ color: #0095be;
     height: 100vh;
     background-image: url(media/bckgr.svg);
     background-size: 100vw;
+    background-repeat: no-repeat;
   }
 
-  .yt {
+  #yt {
     padding-top: 70px;
   }
 
@@ -79,3 +85,28 @@ color: #0095be;
     padding-bottom: 40px;
   }
  
+  .some {
+    background-image: url(media/some.png);
+    background-size: 95vw;
+    margin-top: 100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+
+  .text_some {
+font-weight: normal;
+font-size: 1rem;
+color: #fff;
+width: 27vw;
+position: relative;
+    top: calc(35% - 1em);
+    left: calc(10% - 5em);
+  }
+
+  .see {
+border: 2px solid #0095be;
+filter: drop-shadow(0px 5px 10px rgba(0, 92, 117, 0.2));
+position: relative;
+    top: calc(50% - 5em);
+    left: calc(10% - 7em);
+  }
