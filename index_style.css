@@ -70,14 +70,14 @@ color: #0095be;
   }
 
   #full {
-      margin-top: 100vh;
+    margin-top: 100vh;
     height: 100vh;
-    background-image: url(media/bckgr.svg);
+    background-image: url(media/bckgr.png);
     background-size: 100vw;
     background-repeat: no-repeat;
   }
 
-  #yt {
+ .yt {
     padding-top: 70px;
   }
 
@@ -98,15 +98,16 @@ font-weight: normal;
 font-size: 1rem;
 color: #fff;
 width: 27vw;
-position: relative;
-    top: calc(35% - 1em);
-    left: calc(10% - 5em);
+padding-top: 230px;
+padding-left: 50px;
   }
 
   .see {
 border: 2px solid #0095be;
 filter: drop-shadow(0px 5px 10px rgba(0, 92, 117, 0.2));
-position: relative;
-    top: calc(50% - 5em);
-    left: calc(10% - 7em);
+  }
+
+  .butt {
+    padding-top: 30px;
+    padding-left: 50px;
   }
