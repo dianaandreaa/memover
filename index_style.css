@@ -44,6 +44,9 @@ color: #0095be;
     border-color: white;
     border-width: 0px 2px 2px 0px;
     transform: rotate(45deg);
+    position: absolute;
+    top: calc(95% - 2em);
+    left: calc(50% - 5em);
   }
   
   .arrow:hover {
