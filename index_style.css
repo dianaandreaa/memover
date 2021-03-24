@@ -10,6 +10,14 @@ color: #fff;
 margin: 0;
 }
 
+textarea:focus, input:focus{
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+
 .hidden {
   display: none;
 }
@@ -77,6 +85,10 @@ color: #0095be;
     background-repeat: no-repeat;
   }
 
+  .changing_screen {
+    z-index: 2;
+  }
+
  .yt {
     padding-top: 70px;
   }
@@ -112,3 +124,100 @@ filter: drop-shadow(0px 5px 10px rgba(0, 92, 117, 0.2));
     padding-top: 35px;
     padding-left: 40px;
   }
+
+.logo {
+  width: 20vh; 
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+.ham {
+  border-radius: 0px;
+  display: block;
+  position: absolute;
+  z-index: 10000000;
+  top: 105vh;
+  right: 50px;
+  width: 3vw;
+  height: 2.5vw;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: url(media/ham.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.navbar {
+  z-index: 1000000;
+  background-image: url(media/drop2.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100vw;
+  background-size: 100%;
+  overflow: hidden;
+  transform: translateY(-500%);
+  transition: transform 0.2s ease;
+}
+
+.navbar ul{
+font-weight: lighter;
+letter-spacing: 0.07em;
+text-align: center;
+  margin-top: 10vw;
+  font-size: 5.5vh;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar a, :visited {
+  list-style: none;
+  text-decoration: none;
+  color: white; 
+}
+
+.showClose {
+  background-image: url(media/ham_closed.png);
+}
+
+.showNav {
+  transform: translateY(0);
+}
+
+.navigation {
+  z-index: 2;
+  text-align-last: center;
+  display: inline-flex;
+}
+
+.some_logo {
+  margin-top: 5vh;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#IG {
+  color: transparent;
+    background: url(media/instagram.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#FB {
+  color: transparent;
+    background: url(media/facebook.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#YT {
+  color: transparent;
+    background: url(media/youtube.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
