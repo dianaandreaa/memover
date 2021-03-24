@@ -247,3 +247,44 @@ text-align: center;
   margin-left: 50px;
   width: 55vw;
 }
+
+.footer_text {
+  font-size: 1vw;
+  font-weight: 500;
+  margin-top: 90vh;
+  margin-left: 50px;
+  color: #0095be;
+}
+
+
+#IGf {
+  color: transparent;
+    background: url(media/instagram@2x.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#FBf {
+  color: transparent;
+    background: url(media/facebook@2x.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#YTf {
+  color: transparent;
+    background: url(media/youtube@2x.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer_logo {
+  width: 150px;
+  display: inline-flex;
+  justify-content: space-between;
+  float: right;
+  margin-bottom: 5px;
+}
