@@ -27,3 +27,5 @@ var slideIndex = 1;
 
     smoothScroll.init();
 
+
+
