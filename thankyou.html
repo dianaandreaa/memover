@@ -1,1 +1,82 @@
-Hi Jonas
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #form_container {
+            margin:0 auto;
+            width: 300px;
+            background: white;
+            box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.15);
+            padding: 30px 70px 70px 70px;
+            }
+
+        form {
+        display: flex;
+        flex-direction: column;
+        }
+
+        input:valid, textarea:valid {border: 1px green solid;}
+        input:invalid, textarea:invalid {border: 1px red solid;}
+        input:placeholder-shown, textarea:placeholder-shown {border: 1px grey solid;}
+
+        label {
+            font-family: sans-serif;
+            font-size: 18px;
+            text-transform: uppercase;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        button {
+            margin-top: 20px;
+            height: 40px;
+            color: white;
+            background-color:#0095BE;
+            opacity: 75%;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        button:hover {
+            opacity: 100%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 1rem;
+            width: 275px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="form_container">
+    <form>
+        <h1>Welcome to the community!</h1>
+        
+        <h2>Thank you for registering for our newsletters. You are now a member of our list of wonderful people. Good luck! 🍀 </h2>
+        
+        <button><a href="##" onClick="history.go(-1); return false;">GO BACK TO ME-MOVER</a></button>
+    </form>
+</div>
+        
+        
+</body>
+</html>
