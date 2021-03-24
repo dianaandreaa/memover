@@ -23,12 +23,12 @@ textarea:focus, input:focus{
 }
 
 #bckgr {
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
 }
 
 button {
@@ -42,16 +42,16 @@ color: #0095be;
 }
 
 .hihero {
-    height: 100vh;
+  height: 100vh;
 }
 
 .hero {
   font-size: 2vh;
   outline: none;
-    border: 0.1px solid rgba(234, 235, 239, 0.79);
-    position: absolute;
-    top: calc(80% - 2em);
-    left: calc(50% - 20em);
+  border: 0.1px solid rgba(234, 235, 239, 0.79);
+  position: absolute;
+  top: calc(80% - 2em);
+  left: calc(50% - 20em);
 }
 
 .arrow {
@@ -81,9 +81,10 @@ color: #0095be;
   #full {
     margin-top: 100vh;
     height: 100vh;
-    background-image: url(media/bckgr.png);
+    background-image: url(media/bckgr.webp);
     background-size: 100vw;
     background-repeat: no-repeat;
+    z-index: -1;
   }
 
   .changing_screen {
@@ -92,7 +93,6 @@ color: #0095be;
 
  .yt {
    position: absolute;
-   top: 115vh;
    left: 25%;
   z-index: 5;
   }
@@ -102,14 +102,13 @@ color: #0095be;
   }
  
   .some {
-    background-image: url(media/some.png);
+    z-index: 0;
+    background-image: url(media/some.webp);
     background-size: 95vw;
-    height: 100vh;
     width: 100vw;
+    height: 80vh;
     background-repeat: no-repeat;
     position: absolute;
-   top: 100vh;
-  z-index: 2;
   }
 
   .text_some {
@@ -118,25 +117,25 @@ font-size: 1rem;
 color: #fff;
 width: 27vw;
 padding-top: 150px;
-padding-left: 50px;
+padding-left: 90px;
   }
 
   .see {
     font-size: 1vh;
-border: 2px solid #0095be;
-filter: drop-shadow(0px 5px 10px rgba(0, 92, 117, 0.2));
+    border: 2px solid #0095be;
+    filter: drop-shadow(0px 5px 10px rgba(0, 92, 117, 0.2));
   }
 
   .butt {
     padding-top: 35px;
-    padding-left: 40px;
+    padding-left: 70px;
   }
 
 .ham {
   border-radius: 0px;
   display: block;
   position: absolute;
-  z-index: 10000000;
+  z-index: 10000000000;
   top: 105vh;
   right: 50px;
   width: 3vw;
@@ -149,7 +148,7 @@ filter: drop-shadow(0px 5px 10px rgba(0, 92, 117, 0.2));
   background-size: 100%;
 }
 .navbar {
-  z-index: 10;
+  z-index: 1;
   background-image: url(media/drop2.webp);
   height: 100vh;
   background-repeat: no-repeat;
@@ -180,7 +179,6 @@ text-align: center;
 
 .showClose {
   background-image: url(media/ham_closed.png);
- 
 }
 
 .showNav {
@@ -258,7 +256,7 @@ text-align: center;
 .footer_text {
   font-size: 1vw;
   font-weight: 500;
-  margin-top: 75vh;
+  margin-top: 400px;
   margin-left: 50px;
   color: #0095be;
 }
@@ -292,14 +290,14 @@ text-align: center;
   width: 150px;
   display: inline-flex;
   justify-content: space-evenly;
-  float: right;
-  margin-right: 50px;
   list-style: none;
+  float: right;
+  margin-top: 60px;
 }
 
 
 #form_container {
-  width: 300px;
+  width: 50vw;
   background: white;
   box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.15);
   padding: 30px 70px 70px 70px;
@@ -352,8 +350,7 @@ label {
 
 .foorm {
   position: absolute;
-   top: 115vh;
-   left: 25%;
+  left: 25%;
   z-index: 5;
 }
 
@@ -366,19 +363,19 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   width: 100vw;
-  position: relative;
-  margin: auto;
+  position: absolute;
+  top: 110vh;
+  margin: 0;
 }
 
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 20vh;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
-  color: #0095be;
+  color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -412,18 +409,18 @@ img {vertical-align: middle;}
 .numbertext {
   color: #0095be;
   font-size: 1.5rem;
-  padding: 8px 12px;
   position: absolute;
+  bottom: 0px;
   font-weight: 300;
   margin-left: 50px;
 }
 
 /* The dots/bullets/indicators */
 .dot {
+  margin-top: 450px;
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 5px;
   border: 1.5px solid #0095be;
   border-radius: 50%;
   display: inline-block;
