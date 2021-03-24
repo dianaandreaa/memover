@@ -90,7 +90,10 @@ color: #0095be;
   }
 
  .yt {
-    padding-top: 70px;
+   position: absolute;
+   top: 130vh;
+   left: 25%;
+  z-index: 5;
   }
 
   .text_yt {
@@ -100,9 +103,12 @@ color: #0095be;
   .some {
     background-image: url(media/some.png);
     background-size: 95vw;
-    margin-top: 110vh;
     height: 100vh;
+    width: 100vw;
     background-repeat: no-repeat;
+    position: absolute;
+   top: 100vh;
+  z-index: 2;
   }
 
   .text_some {
