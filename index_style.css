@@ -142,7 +142,7 @@ filter: drop-shadow(0px 5px 10px rgba(0, 92, 117, 0.2));
   background-size: 100%;
 }
 .navbar {
-  z-index: 10000000000000;
+  z-index: 10;
   background-image: url(media/drop2.png);
   height: 100vh;
   background-repeat: no-repeat;
@@ -173,6 +173,7 @@ text-align: center;
 
 .showClose {
   background-image: url(media/ham_closed.png);
+ 
 }
 
 .showNav {
