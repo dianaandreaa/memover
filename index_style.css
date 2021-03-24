@@ -257,7 +257,7 @@ text-align: center;
 .footer_text {
   font-size: 1vw;
   font-weight: 500;
-  margin-top: 90vh;
+  margin-top: 70vh;
   margin-left: 50px;
   color: #0095be;
 }
@@ -290,7 +290,8 @@ text-align: center;
 .footer_logo {
   width: 150px;
   display: inline-flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   float: right;
-  margin-bottom: 5px;
+  margin-right: 50px;
+  list-style: none;
 }
