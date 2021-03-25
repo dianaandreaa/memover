@@ -383,7 +383,7 @@ img {vertical-align: middle;}
 /* The dots/bullets/indicators */
 .dot {
   z-index: 15;
-  margin-top: 600px;
+  margin-top: 625px;
   cursor: pointer;
   height: 15px;
   width: 15px;
