@@ -90,11 +90,16 @@ color: #0095be;
  .yt {
   width: 100vw;
   position: absolute;
+  top: 50px;
   margin: 0;
   }
 
   .text_yt {
-    padding-bottom: 40px;
+    margin-top: 25px;
+  }
+
+  iframe {
+    margin-top: 25px;
   }
  
   .some {
@@ -272,6 +277,7 @@ text-align: center;
   justify-content: space-evenly;
   list-style: none;
   float: right;
+  margin-bottom: 25px;
 }
 
 #form_container {
