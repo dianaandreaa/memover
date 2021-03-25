@@ -275,7 +275,7 @@ text-align: center;
 }
 
 #form_container {
-  margin-top: 15%;
+  margin-top: 17%;
   width: 50vw;
   background: white;
   box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.15);
@@ -294,7 +294,7 @@ label {
   font-family: sans-serif;
   font-size: 18px;
   text-transform: uppercase;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 .form {
@@ -419,4 +419,9 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+h2 {
+  text-align: center;
+  color: black;
 }
